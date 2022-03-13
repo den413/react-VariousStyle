@@ -1,5 +1,10 @@
+import { InlinStyle } from "./components/InlinStyle";
 import "./styles.css";
 
 export const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <InlinStyle />
+    </div>
+  );
 };
